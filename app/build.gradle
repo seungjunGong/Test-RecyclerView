@@ -6,9 +6,13 @@ plugins {
 android {
     compileSdk 32
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.testrecyclerview"
-        minSdk 21
+        minSdk 27
         targetSdk 32
         versionCode 1
         versionName "1.0"
